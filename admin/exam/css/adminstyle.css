@@ -1,0 +1,39 @@
+body
+{
+overflow-x:hidden;
+width:100%;
+font: 15px "Century Gothic", "Times Roman", sans-serif;
+min-height:550px;
+background-attachment:fixed;
+background: linear-gradient(45deg, #080808, transparent), #1eb6e3;
+min-height:535px;
+}
+
+.container-admin{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #d9edf7, transparent),honeydew;
+    width: 800px;
+    font-size: 16px;
+}
+.login-btn{
+    padding: 8px 20px 8px;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 220px;
+    border-radius: 18px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    background: #fbb034;
+    transition: all 1s ease-in-out;
+}
+a:hover{
+    background: #00a4e4;
+    color: #fff;
+}
